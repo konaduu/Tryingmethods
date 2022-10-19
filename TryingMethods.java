@@ -17,7 +17,14 @@ public class TryingMethods {
     };
 
     static void myStaticTwo() {
-   
+        int sum = 0;
+        for (int x = 12; x < 103; x++) {
+            if (x % 2 == 0) {
+                sum = x + sum;
+            }
+        }
+
+        System.out.println("Sum of even numbrs = " + sum);
     }
 
     // dynamic methods
