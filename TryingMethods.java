@@ -6,7 +6,14 @@ public class TryingMethods {
     }
 
     static int myStaticOne() {
+        int i = 0;
+        int total = 0;
+        while (i <= 1000) {
+            total = i + total;
+            i++;
+        }
 
+        return total;
     };
 
     static void myStaticTwo() {
