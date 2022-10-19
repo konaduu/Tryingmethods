@@ -28,8 +28,36 @@ public class TryingMethods {
     }
 
     // dynamic methods
-    String myDynamicOne() {
-   
+    String myDynamicOne(int day) {
+        String dayOfWeek;
+        switch (day) {
+            case 1:
+                dayOfWeek = "Monday";
+                break;
+            case 2:
+                dayOfWeek = "Tuesday";
+                break;
+            case 3:
+                dayOfWeek = "Wednesday";
+                break;
+            case 4:
+                dayOfWeek = "Wednesday";
+                break;
+            case 5:
+                dayOfWeek = "Wednesday";
+                break;
+            case 6:
+                dayOfWeek = "Wednesday";
+                break;
+            case 7:
+                dayOfWeek = "Wednesday";
+                break;
+            default:
+                dayOfWeek = "Invalid day";
+                break;
+        }
+        return dayOfWeek;
+
 
     };
 
