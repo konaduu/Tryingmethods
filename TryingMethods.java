@@ -63,7 +63,12 @@ public class TryingMethods {
 
     void myDynamicTwo() {
 
-
+        int num1 = 2;
+        if (num1 <= 3) {
+            System.out.println("This statement is true");
+        } else {
+            System.out.println("This statement is false");
+        }
 
     }
 }
